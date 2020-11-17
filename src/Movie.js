@@ -3,6 +3,8 @@ import PropTypes from "prop-types";
 
 function Movie (id, year, title, summary, poster ){
     return <h4>{title}</h4>
+    <h3>{summary}</h3>
+    
 }
 
 Movie.PropTypes = {
